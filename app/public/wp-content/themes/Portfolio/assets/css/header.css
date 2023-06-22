@@ -1,0 +1,35 @@
+.header-nav {
+    
+    display: flex;
+}
+
+.logo {
+    width: 13%;
+    margin: 30px;
+
+}
+
+.menu{
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+@media all and (max-width: 620px) {
+    .header-nav{
+        display: none;
+    }
+  
+    #myBtn, .accueil_item > a, .apropos_item > a{
+        color: white;
+        font-size: 1.43em;
+    }
+  }
+  
+  @media all and (min-width: 620px) {
+    .menu-toggle, .open_nav {
+        display: none;
+    }
+  }

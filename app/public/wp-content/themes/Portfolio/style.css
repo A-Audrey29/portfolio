@@ -1,0 +1,20 @@
+/*
+Theme Name: Portfolio
+text Domain : Audrey Appéré
+Theme URI: https://audreyappere.io
+Author: Audrey 
+Author URI: 
+Description: Portfolio de mes projet de développement web et WordPress
+Requires at least: WordPress 6.2
+Version: 1.0
+Requires PHP: 7.4 
+*/
+
+@import "assets/css/header.css";
+@import "assets/css/footer.css";
+/* @import "assets/css/single.css"; */
+@import "assets/css/page.css";
+
+.customize-support {
+    margin: 0 5%
+}

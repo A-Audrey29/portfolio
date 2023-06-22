@@ -1,0 +1,21 @@
+[22-Jun-2023 14:31:10 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[22-Jun-2023 14:31:10 UTC] PHP Stack trace:
+[22-Jun-2023 14:31:10 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-admin/customize.php:0
+[22-Jun-2023 14:31:10 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-admin/customize.php:302
+[22-Jun-2023 14:31:10 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-includes/plugin.php:517
+[22-Jun-2023 14:31:10 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-includes/class-wp-hook.php:332
+[22-Jun-2023 14:31:10 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-includes/class-wp-hook.php:308
+[22-Jun-2023 15:27:10 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[22-Jun-2023 15:27:10 UTC] PHP Stack trace:
+[22-Jun-2023 15:27:10 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-admin/customize.php:0
+[22-Jun-2023 15:27:10 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-admin/customize.php:302
+[22-Jun-2023 15:27:10 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-includes/plugin.php:517
+[22-Jun-2023 15:27:10 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-includes/class-wp-hook.php:332
+[22-Jun-2023 15:27:10 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-includes/class-wp-hook.php:308
+[22-Jun-2023 16:01:42 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[22-Jun-2023 16:01:42 UTC] PHP Stack trace:
+[22-Jun-2023 16:01:42 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-admin/customize.php:0
+[22-Jun-2023 16:01:42 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-admin/customize.php:302
+[22-Jun-2023 16:01:42 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-includes/plugin.php:517
+[22-Jun-2023 16:01:42 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-includes/class-wp-hook.php:332
+[22-Jun-2023 16:01:42 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') /Users/audrey/Desktop/Local Sites/portfolio/app/public/wp-includes/class-wp-hook.php:308

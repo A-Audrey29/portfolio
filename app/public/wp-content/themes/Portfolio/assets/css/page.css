@@ -1,0 +1,129 @@
+.customize-support {
+    margin: auto;
+    animation: grow 1.25s ease-in-out;
+
+}
+
+/* hero */
+
+/* img hero */
+.wp-image-24 {
+    width: 100%;
+}
+
+/* .wp-block-cover__image-background {
+    margin: 30px !important;
+}
+
+.wp-block-group{
+padding: 10em 0;
+opacity: 0.7;
+}
+
+.alignfull {
+    margin-bottom: 120px;
+} */
+
+
+/* galerie */
+
+
+.wp-container-6 img {
+
+    filter: grayscale(100%) drop-shadow(-8px 3px 20px black) opacity(0.8) !important;  
+    object-fit: cover !important;  
+
+    /* position:absolute;
+    width:100px;
+    height:100px; */
+    /* top:50%;
+    left:50%; */
+    /* margin-left:-50px;
+    margin-top:-50px; */
+    /* background:blue; */
+    /* border-radius:50%; */
+  opacity:0.5;
+    /* -webkit-transition:all 3s linear; */
+}
+
+.wp-container-6 img:hover {
+    filter : drop-shadow(-8px 3px 20px black) !important;
+}
+
+
+/* ouverture d'un projet  */
+
+/* body{
+    width:100%;
+    height:100%;
+} */
+/* .circle{
+    position:absolute;
+    width:100px;
+    height:100px;
+    top:50%;
+    left:50%;
+    margin-left:-50px;
+    margin-top:-50px;
+    background:blue;
+    border-radius:50%;
+  opacity:0.5;
+    -webkit-transition:all 3s linear;
+} */
+
+
+.wp-block-image img.active{
+    width:2000px;
+    height:2000px;
+    top:50%;
+    left:50%;
+    margin-left:-1000px;
+    margin-top:-1000px;
+}
+
+/* .page{
+
+    opacity:0;
+    z-index:99;
+    position:relative;
+    -webkit-transition:all 0.5s;
+    -webkit-transition-delay: 1s; 
+    
+}
+
+.page.active{
+opacity:1;
+} */
+
+
+/* taille des images de la grille */
+
+/* container principal */
+.wp-container-6 {
+    padding: 50px 9%;
+}
+/* container Pht event - Planty - Koukaki*/
+.is-layout-flow {
+    max-width: 685px;
+}
+
+/* img phot event */
+.wp-image-43 {
+    width: 85%;
+}
+
+/* container Planty Koukaki */
+.wp-container-3 {
+    width: 650px;
+}
+
+/* img Planty */
+.wp-image-31{
+    width: 325px;
+}
+
+/* img koukaki */
+.wp-image-23 {
+    width: 390px;
+    height: 390px;
+}
