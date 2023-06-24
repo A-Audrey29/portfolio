@@ -9,11 +9,6 @@
         100% { transform: scale(1); }
       } */
 
-.customize-support {
-
-    background-color: black;
-}
-
 .modal-content {
     display: flex;
     align-items: center;

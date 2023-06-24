@@ -1,0 +1,89 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+  }
+  
+  
+  
+  /* Modal Content/Box */
+  .modal-content {
+    max-width: 597px;
+    max-height: 769px;
+    background-color: #fefefe;
+    padding-bottom: 6.1em;
+    margin: 15% auto; /* 15% from the top and centered */
+    border: 5px solid #000000;
+    width: 80%; /* Could be more or less, depending on screen size */
+    animation: slide-down 1s ease;
+  }
+  
+  
+        /* formulaire de contact */
+  
+  .wpforms-field-container {
+      margin-top: 2.8em !important;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  .wpforms-field-medium, .wpforms-field-large {
+      width: 264px !important;
+      border: 1px solid black !important;
+  }
+  
+  .label {
+      font-family: 'Poppins';
+      font-size: 14px;
+      line-height: 21px;
+  }
+  
+  .wpforms-field-label{
+  margin: 2px !important;
+  }
+  
+  .wpforms-submit-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .wpforms-submit {
+      width: 214px !important;
+      color: black !important;
+      background-color: white !important;
+  }
+  #wpforms-submit-61 {
+    font-family: 'space-mono';
+    font-size: 14px;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 4px solid black;
+  }
+  
+  .menu-item{
+  border: none;
+  background-color: transparent;
+  }
+  
+  @media all and (max-width: 480px){
+  
+    .modal-content {
+      width: 85%;
+      height: 567px;
+    }
+  
+    .wpforms-field-medium, .wpforms-field-large {
+      width: 190px !important;
+      
+  }
+  }

@@ -5,7 +5,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+.menu-navbar {
+    display: flex;
 }
 
 .logo {
@@ -33,9 +36,9 @@
 
 
 @media all and (max-width: 620px) {
-    /* .header-nav{
+    .header-nav{
         display: none;
-    } */
+    }
   
     #myBtn, .accueil_item > a, .apropos_item > a{
         color: white;

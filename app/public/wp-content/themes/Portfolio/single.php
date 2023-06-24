@@ -8,9 +8,9 @@
 <?php get_header(); ?>
 
 <div>
-    <ul id="myModal" class="modal">
+    <ul class="article">
 
-        <div class="modal-content">
+        <div class="article-content">
             <?php if (has_post_thumbnail()) : ?>
                 <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title_attribute(); ?>" class="post-thumbnail" id="popup-img" />
 
@@ -22,7 +22,15 @@
                         <p class="desc"><?php echo get_field('description'); ?></p>
                     </li>
                     <li>
-                        <p class="comp">Compétences :<?php echo get_field('format'); ?></p>
+                        <p class="comp">Compétences : <?php
+                                                        $competences = get_field('competences');
+                                                        if ($competences) : ?>
+                        <ul>
+                            <?php foreach ($competences as $competence) : ?>
+                                <li><?php echo $competence; ?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    <?php endif; ?></p>
                     </li>
                 </div>
         </div>

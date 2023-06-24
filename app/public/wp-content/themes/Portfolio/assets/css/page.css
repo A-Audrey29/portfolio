@@ -1,6 +1,7 @@
 .customize-support {
     margin: auto;
     margin: 0 5%;
+    background-color: black;
     animation: grow 1.25s ease-in-out;
 
 }
@@ -44,10 +45,10 @@ opacity: 0.7;
 /* galerie */
 
 
-.wp-container-8 img {
+.wp-container-7 img {
 
-    filter: grayscale(100%) drop-shadow(-8px 3px 20px black) opacity(0.8) !important;  
-    object-fit: cover !important;  
+    /* filter: grayscale(90%) drop-shadow(-8px 3px 20px black) opacity(0.8) !important;  
+    object-fit: cover !important;   */
 
     /* position:absolute;
     width:100px;
@@ -62,7 +63,7 @@ opacity: 0.7;
     /* -webkit-transition:all 3s linear; */
 }
 
-.wp-container-8 img:hover {
+.wp-container-7 img {
     filter : drop-shadow(-8px 3px 20px black) !important;
 }
 
@@ -115,13 +116,13 @@ opacity:1;
 /* images de la grille */
 
 /* container principal */
-.wp-container-6 {
+.wp-container-7 {
     padding: 8em 9%;
     max-width: 1300px;
     margin: auto;
 }
 
-.wp-container-6 img {
+.wp-container-7 img {
     border-radius: 4%;
     filter: grayscale(0.9);
 }

@@ -1,70 +1,70 @@
-// // ouverture d'un projet
+// // // ouverture d'un projet
 
-// Sélectionner la lightbox et le bouton de fermeture
-let lightboxModal = document.querySelector('.modal');
-let btnCloseLightbox = document.querySelector('.close');
-const lightbox = document.querySelector('.modal');
-let listOfInfo = [];
+// // Sélectionner la lightbox et le bouton de fermeture
+// let lightboxModal = document.querySelector('.modal');
+// let btnCloseLightbox = document.querySelector('.close');
+// const lightbox = document.querySelector('.modal');
+// let listOfInfo = [];
 
-// Fonction pour ouvrir la lightbox
+// // Fonction pour ouvrir la lightbox
 
-document.querySelectorAll('.projet-link').forEach((photo) => {
-    photo.addEventListener('click', function(e) {
-        let modal = document.querySelector('.modal');
-        // let selectedImage = e.target.closest('.galerie-img').querySelector('#img-fullscreen');
-        let modalImage = modal.querySelector('.wp-block-omage img');
+// document.querySelectorAll('.projet-link').forEach((photo) => {
+//     photo.addEventListener('click', function(e) {
+//         let modal = document.querySelector('.modal');
+//         // let selectedImage = e.target.closest('.galerie-img').querySelector('#img-fullscreen');
+//         let modalImage = modal.querySelector('.wp-block-omage img');
 
-        // modalImage.src = selectedImage.src;
-        // modalImage.alt = selectedImage.alt;
-        modal.style.display = 'block';
-        modal.classList.add('active');    
-    })
-})
+//         // modalImage.src = selectedImage.src;
+//         // modalImage.alt = selectedImage.alt;
+//         modal.style.display = 'block';
+//         modal.classList.add('active');    
+//     })
+// })
 
-document.querySelectorAll('.galerie-img-info').forEach((galerieImg) => {
-        //récupérer les infos de la photo
-        const title = galerieImg.querySelector('.galerie-title').textContent;
-        const categorie = galerieImg.querySelector('.galerie-cat').textContent;
-        const annee = galerieImg.getAttribute('data-date');
+// document.querySelectorAll('.galerie-img-info').forEach((galerieImg) => {
+//         //récupérer les infos de la photo
+//         const title = galerieImg.querySelector('.galerie-title').textContent;
+//         const categorie = galerieImg.querySelector('.galerie-cat').textContent;
+//         const annee = galerieImg.getAttribute('data-date');
 
-        listOfInfo.push(
-            {
-                title: title,
-                categorie: categorie,
-                annee: annee
-            }
-        );
-})
-
-
-// Fonction pour fermer la lightbox
-
-function closeLightbox() {
-    lightboxModal.style.display = 'none';
-}
-btnCloseLightbox.addEventListener('click', closeLightbox);
+//         listOfInfo.push(
+//             {
+//                 title: title,
+//                 categorie: categorie,
+//                 annee: annee
+//             }
+//         );
+// })
 
 
-// récupération des informations (titre, catégorie, année) de la photo
-  var listOfIconFullScreen = document.querySelectorAll('.icon-fullscreen');
+// // Fonction pour fermer la lightbox
 
-  // Lorsque l'un des boutons est cliqué
-  listOfIconFullScreen.forEach(function(button, position) {
-    button.addEventListener('click', function(e) {
-      e.preventDefault();
-      // Enregistrer l'index du bouton cliqué pour la navigation
-      const title = listOfInfo[position].title;
-      const categorie = listOfInfo[position].categorie;
-      const annee = listOfInfo[position].annee;
+// function closeLightbox() {
+//     lightboxModal.style.display = 'none';
+// }
+// btnCloseLightbox.addEventListener('click', closeLightbox);
 
-      lightbox.querySelector('.lightbox-titre').textContent = title;
-      lightbox.querySelector('.lightbox-cat').textContent = categorie;
-      lightbox.querySelector('.lightbox-annee').textContent = annee;
 
-      lightbox.setAttribute('data-current-index', position);
+// // récupération des informations (titre, catégorie, année) de la photo
+//   var listOfIconFullScreen = document.querySelectorAll('.icon-fullscreen');
 
-    });
-  });
+//   // Lorsque l'un des boutons est cliqué
+//   listOfIconFullScreen.forEach(function(button, position) {
+//     button.addEventListener('click', function(e) {
+//       e.preventDefault();
+//       // Enregistrer l'index du bouton cliqué pour la navigation
+//       const title = listOfInfo[position].title;
+//       const categorie = listOfInfo[position].categorie;
+//       const annee = listOfInfo[position].annee;
+
+//       lightbox.querySelector('.lightbox-titre').textContent = title;
+//       lightbox.querySelector('.lightbox-cat').textContent = categorie;
+//       lightbox.querySelector('.lightbox-annee').textContent = annee;
+
+//       lightbox.setAttribute('data-current-index', position);
+
+//     });
+//   });
 
 // // navigation des flèches 
 // lightbox.querySelector('.lightbox-prev').addEventListener('click', function(e) {
@@ -371,14 +371,11 @@ btnCloseLightbox.addEventListener('click', closeLightbox);
       let modal = document.getElementById('myModal')
 
       if (modal) {
-        let btn = document.querySelectorAll('.modal-js')
+        let btn = document.querySelectorAll('.wp-block-button__link')
       
         btn.forEach(function(item) {
           item.addEventListener('click', () => {
             modal.style.display = 'block'
-            let input = document.querySelector('#wpforms-61-field_3')
-            let referenceText = document.querySelector('#reference').textContent
-            input.value = referenceText
           })
         })
       }
@@ -388,3 +385,12 @@ window.onclick = function(event) {
         modal.style.display = 'none'
     }
 }
+
+// // intégration du bouton contact dans le menu principal
+
+// // Sélectionner le bouton et la div
+// var btn = document.getElementById("myBtn")
+// var menuContainer = document.querySelector(".navbar")
+
+// // Déplacer le bouton dans la div
+// menuContainer.appendChild(btn)
