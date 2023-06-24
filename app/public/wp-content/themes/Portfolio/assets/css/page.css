@@ -1,5 +1,6 @@
 .customize-support {
     margin: auto;
+    margin: 0 5%;
     animation: grow 1.25s ease-in-out;
 
 }
@@ -18,10 +19,13 @@
     z-index: 1;
 }
 
-.banier-titre {
+.hero-titre {
     opacity: 0.7;
+    padding: 1.25em 0.375em !important;
     margin: 0 17%;
 }
+
+
 
 /* .wp-block-cover__image-background {
     margin: 30px !important;
@@ -183,6 +187,11 @@ opacity:1;
         margin: auto;
         object-fit: cover;
     }    
+
+    .hero-titre {
+        opacity: 0.7;
+        margin: 0 -2%;
+    }
 
     /* container Pht event - Planty - Koukaki*/
 /* .is-layout-flow {

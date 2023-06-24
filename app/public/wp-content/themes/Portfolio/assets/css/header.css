@@ -27,12 +27,15 @@
     text-decoration: none;
 }
 
+.line {
+    color: white;
+}
 
 
 @media all and (max-width: 620px) {
-    .header-nav{
+    /* .header-nav{
         display: none;
-    }
+    } */
   
     #myBtn, .accueil_item > a, .apropos_item > a{
         color: white;

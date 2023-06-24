@@ -12,9 +12,7 @@ Requires PHP: 7.4
 
 @import "assets/css/header.css";
 @import "assets/css/footer.css";
+@import "assets/css/modal.css";
 @import "assets/css/single.css";
 @import "assets/css/page.css";
 
-.customize-support {
-    margin: 0 5%
-}
