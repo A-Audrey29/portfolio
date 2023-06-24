@@ -40,6 +40,9 @@ function portfolio_supports()
 
     // Ajouter le support des blocs Gutenberg
     add_theme_support('gutenberg', array('wide-images' => true));
+
+    //enlève la gestion du responsive natif de WP 
+    add_theme_support('disable-custom-font-sizes');
 }
 add_action('after_setup_theme', 'portfolio_supports');
 

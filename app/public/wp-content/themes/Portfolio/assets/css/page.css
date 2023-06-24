@@ -9,6 +9,18 @@
 /* img hero */
 .wp-image-24 {
     width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.wp-block-group__inner-container {
+    position: relative;
+    z-index: 1;
+}
+
+.banier-titre {
+    opacity: 0.7;
+    margin: 0 17%;
 }
 
 /* .wp-block-cover__image-background {
@@ -28,7 +40,7 @@ opacity: 0.7;
 /* galerie */
 
 
-.wp-container-6 img {
+.wp-container-8 img {
 
     filter: grayscale(100%) drop-shadow(-8px 3px 20px black) opacity(0.8) !important;  
     object-fit: cover !important;  
@@ -46,7 +58,7 @@ opacity: 0.7;
     /* -webkit-transition:all 3s linear; */
 }
 
-.wp-container-6 img:hover {
+.wp-container-8 img:hover {
     filter : drop-shadow(-8px 3px 20px black) !important;
 }
 
@@ -57,7 +69,7 @@ opacity: 0.7;
     width:100%;
     height:100%;
 } */
-/* .circle{
+.circle{
     position:absolute;
     width:100px;
     height:100px;
@@ -65,11 +77,11 @@ opacity: 0.7;
     left:50%;
     margin-left:-50px;
     margin-top:-50px;
-    background:blue;
+    /* background:blue; */
     border-radius:50%;
   opacity:0.5;
     -webkit-transition:all 3s linear;
-} */
+}
 
 
 .wp-block-image img.active{
@@ -96,12 +108,22 @@ opacity:1;
 } */
 
 
-/* taille des images de la grille */
+/* images de la grille */
 
 /* container principal */
 .wp-container-6 {
-    padding: 50px 9%;
+    padding: 8em 9%;
+    max-width: 1300px;
+    margin: auto;
 }
+
+.wp-container-6 img {
+    border-radius: 4%;
+    filter: grayscale(0.9);
+}
+
+
+
 /* container Pht event - Planty - Koukaki*/
 .is-layout-flow {
     max-width: 685px;
@@ -110,11 +132,12 @@ opacity:1;
 /* img phot event */
 .wp-image-43 {
     width: 85%;
+    max-height: 240px;
 }
 
 /* container Planty Koukaki */
-.wp-container-3 {
-    width: 650px;
+.wp-container-5 {
+    max-width: 650px;
 }
 
 /* img Planty */
@@ -125,5 +148,71 @@ opacity:1;
 /* img koukaki */
 .wp-image-23 {
     width: 390px;
-    height: 390px;
+}
+
+/* colonne droite SV - Chic - Booki*/
+.is-vertically-aligned-center {
+    margin-top: 100px;
+}
+
+
+
+
+/*781px*/
+@media all and (max-width: 781px){
+    .wp-container-6 {
+        padding: 50px 9%;
+    }
+
+    .wp-container-3 {
+        flex-wrap: nowrap!important;
+        display: flex;
+    }
+
+}
+
+@media all and (max-width: 480px){
+
+    .is-layout-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .wp-block-column img {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        object-fit: cover;
+    }    
+
+    /* container Pht event - Planty - Koukaki*/
+/* .is-layout-flow {
+    position: relative;
+    left: -6em;
+    top: 4em;
+} */
+
+/* img SV*/
+/* .wp-image-28 {
+    position: relative;
+    top: 2em;
+    left: -10.5em;
+} */
+
+
+
+/* @media all and (max-width: 400px){
+ 
+.wp-image-23, .wp-image-28, .wp-image-29, .wp-image-27, .wp-image-43 {
+    width: 82%;
+}
+} */
+
+}
+
+
+
+
+  .active {
+    opacity: 1;
+    visibility: visible;
 }

@@ -3,41 +3,35 @@
     padding: 2em 5%;
     margin: auto;
     animation: grow 1.5s ease-in-out;
-}     
-      @keyframes grow {
+    }     
+      /* @keyframes grow {
           0% { transform: scale(.2); }
         100% { transform: scale(1); }
-      }
+      } */
 
+.customize-support {
 
-.projet-info-container {
-    padding: 0 10%;
-    margin: auto;
+    background-color: black;
+}
 
+.modal-content {
     display: flex;
-    flex-direction: column;
     align-items: center;
-}
-
-.projet-titre {
-    font-size: 3em  ;
-}
-
-.projet-info {
-    padding-top: 4em; 
-
-    display: flex;
     justify-content: space-around;
 }
 
-.projet-des {
-    width: 60%;
+.modal-content >img {
+    width: 40%;
 }
 
-.projet-comp {
-    width: 20%;
+.info {
+    width: 40%;
 }
 
-.projet-lien {
-    padding: 4em 0;
+.info li {
+    list-style: none;
+    color: aliceblue;
 }
+
+
+  

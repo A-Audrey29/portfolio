@@ -1,18 +1,30 @@
 .header-nav {
+    height: 5em;
+    margin-bottom: 2em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    width: 50px;
+}
+
+.menu{
     
     display: flex;
 }
 
-.logo {
-    width: 13%;
-    margin: 30px;
-
+.menu li {
+    list-style: none;
+    padding-left: 1em;
 }
 
-.menu{
-
-    display: flex;
-    flex-direction: row-reverse;
+.menu-item a {
+    color: white;
+    text-decoration: none;
 }
 
 

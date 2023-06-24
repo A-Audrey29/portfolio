@@ -1,0 +1,265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-06-14 09:30+0900\n"
+"PO-Revision-Date: 2019-06-14 09:31+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: .git\n"
+
+#: common/admin.php:181 common/admin.php:182
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: common/admin.php:205
+msgid "<label>Hide</label><br /><small>Doesn't display the ads.</small>"
+msgstr ""
+"<label>Cacher</label><br /><small>Cacher les bannières publicitaires.</small>"
+
+#: common/admin.php:213
+msgid ""
+"<label>Hide <b>Meow Apps</b> Menu</label><br /><small>Hide Meow Apps menu "
+"and all its components, for a cleaner admin. This option will be reset if a "
+"new Meow Apps plugin is installed. <b>Once activated, an option will be "
+"added in your General settings to display it again.</b></small>"
+msgstr ""
+"<label>Cacher le menu <b>Meow Apps</b></label><br /><small>Cacher le menu "
+"Meow Apps pour un tableau de bord plus propre. Cette option sera "
+"réinitialisée si vous installez une nouvelle extension Meow Apps. <b>Une "
+"fois activée, une option sera disponible dans les settings généraux pour "
+"pouvoir montrer le menu à nouveau.</b></small>"
+
+#: common/admin.php:221
+msgid ""
+"<label>Force</label><br /><small>Updates and licenses checks are usually "
+"made without checking SSL certificates and it is actually fine this way. But "
+"if you are intransigent when it comes to SSL matters, this option will force "
+"it.</small>"
+msgstr ""
+"<label>Forcer</label><br /><small>Les mises à jour et les vérifications des "
+"licenses sont normalement effectuées sans vérifier les certificats SSL. Si "
+"vous êtes intransigeants sur les questions de SSL, cette option forcera la "
+"vérification des certificats.</small>"
+
+#: common/admin.php:339
+msgid ""
+"Meow Apps is run by Jordy Meow, a photographer and software developer living "
+"in Japan (and taking <a target=\"_blank\" href=\"http://offbeatjapan.org\">a "
+"lot of photos</a>). Meow Apps is a suite of plugins focusing on photography, "
+"imaging, optimization and it teams up with the best players in the community "
+"(other themes and plugins developers). For more information, please check <a "
+"href=\"http://meowapps.com\" target=\"_blank\">Meow Apps</a>."
+msgstr ""
+"Meow Apps est géré par Jordy Meow, un phgotographe et dévelopeur logiciel "
+"vivant au Japon ( et prenant <a target=\"_blank\" href=\"http://offbeatjapan."
+"org\">beaucoup de photos</a> ). Meow Apps est une collection d'extensions se "
+"concentrant sur la photographie, l'imagerie, l'optimisation qui s'associent "
+"avec les meilleurs acteurs de la communeauté ( autres thèmes et "
+"extensions ). Pour plus d'informations, visitez la page <a href=\"http://"
+"meowapps.com\" target=\"_blank\">Meow Apps</a>."
+
+#: common/meowapps/admin.php:121
+msgid ""
+"There was an error while validating the serial.<br />Please contact <a "
+"target='_blank' href='https://meowapps.com/contact/'>Meow Apps</a> and "
+"mention the following log: <br /><ul>"
+msgstr ""
+"Il y a eu une erreur lors de la vérification de votre license.<br />Veuillez "
+"contacter <a target='_blank' href='https://meowapps.com/contact/'>Meow Apps</"
+"a> en transmettant les informations suivantes: <br /><ul>"
+
+#: common/meowapps/updater.php:201
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Une nouvelle version de %1$s est disponible. %2$sVoir les détails de la "
+"version %3$s %4$s."
+
+#: common/meowapps/updater.php:209
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s. "
+"ou %5$smettez-à-jour maintenant%6$s."
+
+#: common/meowapps/updater.php:401
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+"Vous n'avez pas les droits pour installer des mises-à-jour d'extensions"
+
+#: common/meowapps/updater.php:401
+msgid "Error"
+msgstr "Erreur"
+
+#: mwl_admin.php:20
+msgid ""
+"Meow Lightbox will not work properly if your permalinks are set up on \"Plain"
+"\". Please pick a dynamic structure for your permalinks (Settings > "
+"Permalinks)."
+msgstr ""
+"Meow Lightbox ne marchera pas correctement si vos permaliens sont réglés sur "
+"\"simple\". Veuillez choisir une stucture dynamique pour vos permaliens "
+"( Réglages > Permaliens )."
+
+#: mwl_admin.php:27
+msgid ""
+"The function <i>exif_read_data</i> is not available on your server, but it "
+"is required by the Meow Lightbox. Please ask your hosting service to enable "
+"the <i>php_exif</i> module."
+msgstr ""
+"La fonction <i>exif_read_data</i> n'est pas disponible sur votre serveur "
+"mais est requise par la Meow Lightbox. Veuillez demander à votre hébergeur "
+"d'activer le module <i>php_exif</i>."
+
+#: mwl_admin.php:53
+msgid "Theme"
+msgstr "Thème"
+
+#: mwl_admin.php:62
+msgid "Image Size"
+msgstr "Résolution"
+
+#: mwl_admin.php:71
+msgid "Display"
+msgstr "Affichage"
+
+#: mwl_admin.php:90
+msgid "Selector"
+msgstr "Sélecteur"
+
+#: mwl_admin.php:93
+msgid "Anti Selector"
+msgstr "Anti-sélecteur"
+
+#: mwl_admin.php:96
+msgid "Output Buffering"
+msgstr "Bufferisation de sortie"
+
+#: mwl_admin.php:110
+msgid "API Key"
+msgstr "Clé d'API"
+
+#: mwl_admin.php:113
+msgid "Style"
+msgstr "Style"
+
+#: mwl_admin.php:153
+msgid "How to use"
+msgstr "Comment utiliser"
+
+#: mwl_admin.php:155
+msgid ""
+"Meow Lightbox works out of the box with the standard Gallery, the Meow "
+"Gallery, and many others. If it doesn't work right away, check the <a "
+"target='_blank' href='https://meowapps.com/plugin/meow-lightbox/'>usage</a> "
+"section. <b>In some cases, you might want to reset your the cache created by "
+"the Meow Lightbox (which contains the EXIF information, caption, "
+"description, the sizes of your images, etc.), to do so, click on the button "
+"below.</b> The cache is automatically reset every 3 months."
+msgstr ""
+"La Meow Lightbox marche sans configuration avec la gallerie standard, la "
+"Meow Gallery et bien d'autres. Si elle ne marchait pas directement, veuillez "
+"vérifier la section <a target='_blank' href='https://meowapps.com/plugin/"
+"meow-lightbox/'>usage</a>. Dans certain cas, vous pourriez vouloir "
+"réinitaliser le cache crée par la Meow Lightbox ( qui contient les "
+"informations EXIF, légendes, descriptions, tailles des images etc.. ), pour "
+"ce faire, cliquez sur le bouton ci-dessous.</b> Le cache est automatiquement "
+"vidé tous les 3 mois."
+
+#: mwl_admin.php:243
+msgid "Dark (default)"
+msgstr "Sombre ( par défaut )"
+
+#: mwl_admin.php:244
+msgid "Light"
+msgstr "Clair"
+
+#: mwl_admin.php:263
+msgid "Natural (default)"
+msgstr "Naturel ( par défaut )"
+
+#: mwl_admin.php:264
+msgid "Landscape"
+msgstr "Paysage"
+
+#: mwl_admin.php:265
+msgid "Portrait"
+msgstr "Portrait"
+
+#: mwl_admin.php:280
+msgid ""
+"<label>Enabled</label><br /><small>The location of the photos will be "
+"displayed on a little map. On click, the map will be be enlarged to the "
+"entire lightbox.</small>"
+msgstr ""
+"<label>Activée</label><br /><small>La localistation des photos sera affichée "
+"sur une petite carte</small>"
+
+#: mwl_admin.php:287
+msgid ""
+"<br /><span class=\"description\">This selector will be used to apply the "
+"lightbox to the images.</span>"
+msgstr ""
+"<br /><span class=\"description\">le sélecteur est utilisé pour déterminer "
+"sur quelles images la lightbox doit se lancer.</span>"
+
+#: mwl_admin.php:300
+msgid "Responsive Images (src-set)"
+msgstr "Images adaptatives ( src-set )"
+
+#: mwl_admin.php:301
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: mwl_admin.php:302
+msgid "Medium"
+msgstr "Moyenne"
+
+#: mwl_admin.php:303
+msgid "Large"
+msgstr "Grande"
+
+#: mwl_admin.php:304
+msgid "Full"
+msgstr "Originale"
+
+#: mwl_admin.php:430
+msgid ""
+"Generate it for free here: <a target=\"_blank\" href=\"https://developers."
+"google.com/maps/documentation/javascript/get-api-key\">Get a Google Maps API "
+"Key</a>."
+msgstr ""
+"Générer la gratuitement ici: <a target=\"_blank\" href=\"https://developers."
+"google.com/maps/documentation/javascript/get-api-key\">Créer une clé d'API "
+"Google Maps</a>."
+
+#: mwl_admin.php:438
+msgid ""
+"The format of the style must be valid JSON. To avoid errors, it was reverted "
+"to the default style."
+msgstr ""
+"Le format du style doit être  du JSON valide. Pour éviter des erreurs, nous "
+"avons réinitalisé le style au style par défaut."
+
+#: mwl_admin.php:443
+msgid ""
+"Google Map Style JSON. You can find a lot of beautiful templates ready to "
+"use here: <a target=\"_blank\" href=\"https://snazzymaps.com/\">SnazzyMaps."
+"com</a>. Remove it and it will reset to the default style."
+msgstr ""
+"Style Google Map au format JSON. Vous pouvez trouver de nombreux templates "
+"prêts à l'usage ici: <a target=\"_blank\" href=\"https://snazzymaps.com/"
+"\">SnazzyMaps.com</a>.  Laisser vide pour utiliser le style par défaut."

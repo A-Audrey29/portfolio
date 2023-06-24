@@ -13,7 +13,7 @@
     <div class="header-nav">
 
         <a href="<?php echo home_url('/'); ?>">
-            <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png'" alt="Logo">
+            <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logoW.png'" alt="Logo">
         </a>
         <?php
         wp_nav_menu([

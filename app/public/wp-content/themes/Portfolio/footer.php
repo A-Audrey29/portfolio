@@ -1,5 +1,5 @@
 <?php
-// get_template_part('template-parts/content', 'contact');
+get_template_part('templates-parts/content', 'modal');
 
 ?>
 <footer class="footer">
