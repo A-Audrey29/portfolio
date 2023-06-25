@@ -1,26 +1,36 @@
 
-.single-projet {
+/* .single-projet {
     padding: 2em 5%;
     margin: auto;
     animation: grow 1.5s ease-in-out;
-    }     
+    }      */
       /* @keyframes grow {
           0% { transform: scale(.2); }
         100% { transform: scale(1); }
       } */
+.article {
+    height: 76vh;
+    padding: 0;
+}
 
-.modal-content {
+.article-content {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.modal-content >img {
+.article-content > img {
     width: 40%;
+    min-width: 310px;
+    height: 60vh;
+    object-fit: cover;
 }
 
 .info {
     width: 40%;
+    font-family: 'marcellus';
+    font-size: 15px;
+    word-spacing: 1.3px;
 }
 
 .info li {
@@ -28,5 +38,47 @@
     color: aliceblue;
 }
 
+.info h2 {
+    font-size: 30px;
+}
 
+.comp {
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+
+@media all and (max-width: 800px){
+    .article-content > img {
+        height: 50vh;
+    }
+}
+
+@media all and (max-width: 700px){
+    .article {
+        height: 100%;
+    }
+    .article-content {
+        flex-direction: column;
+    }
+    .article-content > img {
+        height: 42vh;
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+    }
+}
+
+
+
+
+/* ---------  page about me ---------- */
+
+/* btn Cta */
+
+.infoAbout .wp-block-button__link{
+    background-color: white !important;
+    color: black;
+}
   

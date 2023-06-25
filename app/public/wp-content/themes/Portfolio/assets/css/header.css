@@ -7,12 +7,20 @@
     align-items: center;
 }
 
-.menu-navbar {
+.menu-navbar, #myBtn, .menu-item {
+    font-family: 'marcellus';
     display: flex;
+    align-items: flex-end;
+    font-size: 18px !important;
+}
+
+#myBtn {
+    position: relative;
+    top: -3px;
 }
 
 .logo {
-    width: 50px;
+    width: 85px;
 }
 
 .menu{
@@ -36,9 +44,9 @@
 
 
 @media all and (max-width: 620px) {
-    .header-nav{
+    /* .header-nav{
         display: none;
-    }
+    } */
   
     #myBtn, .accueil_item > a, .apropos_item > a{
         color: white;
@@ -46,8 +54,8 @@
     }
   }
   
-  @media all and (min-width: 620px) {
+  /* @media all and (min-width: 620px) {
     .menu-toggle, .open_nav {
         display: none;
     }
-  }
+  } */

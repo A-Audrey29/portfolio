@@ -3,7 +3,7 @@ Theme Name: Portfolio
 text Domain : Audrey Appéré
 Theme URI: https://audreyappere.io
 Author: Audrey 
-Author URI: 
+Author URI: -
 Description: Portfolio de mes projet de développement web et WordPress
 Requires at least: WordPress 6.2
 Version: 1.0
@@ -16,3 +16,34 @@ Requires PHP: 7.4
 @import "assets/css/single.css";
 @import "assets/css/page.css";
 
+@font-face {
+    font-family: 'marcellus';
+    src: url('../Portfolio/assets/fonts/marcellus/marcellus-regular-webfont.woff2') format('woff2'),
+        url('../Portfolio/assets/fonts/marcellus/marcellus-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playfair';
+    src: url('../Portfolio/assets/fonts/playfair/playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
+        url('../Portfolio/assets/fonts/playfair/playfairdisplay-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playfair-italic';
+    src: url('../Portfolio/assets/fonts/playfair/playfairdisplay-italic-variablefont_wght-webfont.woff2') format('woff2'),
+        url('../Portfolio/assets/fonts/playfair/playfairdisplay-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'homemadeapple';
+    src: url('../Portfolio/assets/fonts/homemadeapple/homemadeapple-regular-webfont.woff2') format('woff2'),
+        url('../Portfolio/assets/fonts/homemadeapple/homemadeapple-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

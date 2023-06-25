@@ -35,13 +35,14 @@
       align-items: center;
     }
   
-  .wpforms-field-medium, .wpforms-field-large {
-      width: 264px !important;
+    .wpforms-field-large, .wpforms-field-medium {
+      width: 300px !important;
       border: 1px solid black !important;
   }
-  
+ 
+
   .label {
-      font-family: 'Poppins';
+      font-family: 'marcellus';
       font-size: 14px;
       line-height: 21px;
   }
@@ -60,9 +61,9 @@
       color: black !important;
       background-color: white !important;
   }
-  #wpforms-submit-61 {
-    font-family: 'space-mono';
-    font-size: 14px;
+  #wpforms-submit-134 {
+    font-family: 'homemadeapple';
+    font-size: 16px;
     box-shadow: none;
     display: flex;
     justify-content: center;

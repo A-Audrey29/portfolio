@@ -21,6 +21,7 @@
 }
 
 .hero-titre {
+    font-family: 'marcellus';
     opacity: 0.7;
     padding: 1.25em 0.375em !important;
     margin: 0 17%;
@@ -59,13 +60,13 @@ opacity: 0.7;
     margin-top:-50px; */
     /* background:blue; */
     /* border-radius:50%; */
-  opacity:0.5;
+  opacity:0.8;
     /* -webkit-transition:all 3s linear; */
 }
 
-.wp-container-7 img {
+/* .wp-container-7 img {
     filter : drop-shadow(-8px 3px 20px black) !important;
-}
+} */
 
 
 /* ouverture d'un projet  */
@@ -140,6 +141,12 @@ opacity:1;
     max-height: 240px;
 }
 
+.wp-image-29{
+    margin: 9px 0;
+    height: 52px;
+    object-fit: calc();
+}
+
 /* container Planty Koukaki */
 .wp-container-5 {
     max-width: 650px;
@@ -155,15 +162,35 @@ opacity:1;
     width: 390px;
 }
 
+/* container planty et btn */
+.wp-container-4 :first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 /* colonne droite SV - Chic - Booki*/
 .is-vertically-aligned-center {
     margin-top: 100px;
 }
 
+/* bouton contact */
 
+.wp-block-button__link {
+    font-family: 'homemadeapple';
+    letter-spacing: 0.7px;
+    font-size: 2em;
+    background-color: black !important;
+}
+    
 
+@media all and (max-width: 1026px){
+    .wp-block-button__link {
+        font-size: 1.4em;
+    }
+}    
 
-/*781px*/
 @media all and (max-width: 781px){
     .wp-container-6 {
         padding: 50px 9%;
@@ -172,6 +199,9 @@ opacity:1;
     .wp-container-3 {
         flex-wrap: nowrap!important;
         display: flex;
+    }
+    .wp-image-23 {
+        width: 250px;
     }
 
 }
