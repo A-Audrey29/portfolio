@@ -34,12 +34,12 @@
 }
 
 .menu-item a {
-    color: white;
+    color: var(--contrast-color);
     text-decoration: none;
 }
 
 .line {
-    color: white;
+    color: var(--contrast-color);
 }
 
 
@@ -49,7 +49,7 @@
     } */
   
     #myBtn, .accueil_item > a, .apropos_item > a{
-        color: white;
+        color: var(--contrast-color);
         font-size: 1.43em;
     }
   }

@@ -366,6 +366,19 @@
 // })
 
 
+// transition des pages
+
+$('.projet-link').click(function(){
+    $(this).addClass('active');
+    // $('.page').addClass('active');
+});
+
+$('.close').click(function(){
+    $('.projet-link').removeClass('active');
+    // $('.page').removeClass('active');
+});
+
+
       // FORMULAIRE DE CONTACT
 
       let modal = document.getElementById('myModal')

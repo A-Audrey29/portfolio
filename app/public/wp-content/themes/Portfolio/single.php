@@ -30,8 +30,12 @@
                                 <li><?php echo $competence; ?></li>
                             <?php endforeach; ?>
                         </ul>
-                    <?php endif; ?></p>
+                    <li>
+
+                        <a class="gitHub" href="<?php the_field('lien_vers_github'); ?>" target="_blank">Accédez au code sur GitHub</a>
                     </li>
+                <?php endif; ?></p>
+                </li>
                 </div>
         </div>
     <?php endif; ?>

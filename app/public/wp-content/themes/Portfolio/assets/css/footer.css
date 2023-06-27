@@ -2,6 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid white;
+    border-top: 1px solid var(--contrast-color);
     padding: 50px;
 }

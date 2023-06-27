@@ -21,7 +21,7 @@
 
 .article-content > img {
     width: 40%;
-    min-width: 310px;
+    min-width: 30px;
     height: 60vh;
     object-fit: cover;
 }
@@ -33,9 +33,9 @@
     word-spacing: 1.3px;
 }
 
-.info li {
+.info li, .info a {
     list-style: none;
-    color: aliceblue;
+    color: var(--contrast-color);
 }
 
 .info h2 {
@@ -46,6 +46,23 @@
     padding-top: 35px;
     font-size: 20px;
 }
+
+
+.gitHub {
+    font-size: 17px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 106px;
+    right: -26%;
+}
+
+
+.info a {
+    text-decoration: none;
+    font-family: 'playfair-italic';
+}
+
+
 
 
 @media all and (max-width: 800px){
@@ -68,6 +85,10 @@
     .info{
         width: 100%;
     }
+    .gitHub {
+        top: 16px;
+        right: -7%;
+    }
 }
 
 
@@ -78,7 +99,7 @@
 /* btn Cta */
 
 .infoAbout .wp-block-button__link{
-    background-color: white !important;
-    color: black;
+    background-color: var(--contrast-color) !important;
+    color: var(--primary-color);
 }
   
