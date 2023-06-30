@@ -60,6 +60,16 @@ Requires PHP: 7.4
 }
 
 
+body {
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px 40px;
+}
+
+img {
+    object-fit: cover;
+}
+
 :root {
     --primary-color: #232323;
     --contrast-color: #FAF2EA;

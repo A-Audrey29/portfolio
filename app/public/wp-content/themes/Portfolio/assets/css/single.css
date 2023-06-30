@@ -22,7 +22,7 @@
 .slider {
     width: 46%;
     min-width: 30px;
-    height: 60vh;
+    height: 45vh;
     object-fit: cover;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .wp-block-eedee-block-gutenslider {
-    top: -38em;
+    top: -34em;
     position: relative;
 }
 
@@ -68,7 +68,7 @@
 
 .info a {
     text-decoration: none;
-    font-family: 'playfair-italic';
+    font-family: 'seasons';
 }
 
 
@@ -87,9 +87,13 @@
     .article-content {
         flex-direction: column;
     }
-    .article-content > img {
-        height: 42vh;
+    .slider {
         width: 100%;
+        /* height: 88vh; */
+    }
+
+    .wp-block-eedee-block-gutenslider {
+        top: -24em;
     }
     .info{
         width: 100%;
