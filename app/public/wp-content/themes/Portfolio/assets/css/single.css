@@ -26,6 +26,10 @@
     object-fit: cover;
 }
 
+.slider img {
+    object-fit: cover;
+}
+
 .wp-block-eedee-block-gutenslider {
     top: -38em;
     position: relative;

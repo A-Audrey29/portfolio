@@ -83,7 +83,7 @@ opacity: 0.7;
 
 /* container principal */
 .wp-container-7 {
-    padding: 8em 90px 0em 90px;
+    padding: 5em 90px 0em 90px;
     max-width: 1300px;
     margin: auto;
 }
@@ -159,10 +159,71 @@ opacity: 0.7;
 .wp-block-button__link {
     font-family: 'seasons';
     letter-spacing: 0.7px;
-    font-size: 2em;
+    font-size: 2.6em;
     background-color: var(--primary-color) !important;
     color: var(--contrast-color);
 }
+
+.wp-block-buttons :hover .wp-block-button__link{
+    border: 1px solid var(--contrast-color);
+    -webkit-animation: 8s linear infinite;
+          animation: top 8s linear infinite;
+          -webkit-animation-name: top;
+          animation-name: top;
+  } 
+
+  @-webkit-keyframes top {
+    25% {
+      width: 0;
+      background: #ffdb00;
+    }
+    38% {
+      width: calc(103%);
+      background: #ffdb00;
+    }
+    50% {
+      background: #ffdb00;
+    }
+    62% {
+      background: #ffdb00;
+    }
+    75% {
+      width: calc(103%);
+      background: #ffdb00;
+    }
+    88% {
+      left: auto;
+      right: -3px;
+      width: 0;
+      background: #ffdb00;
+    }
+  }
+
+/* animation bouton contact */
+/* .wp-block-buttons  {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+        margin: 0 auto;
+    width: 320px;  
+  } */
+  /* .wp-block-button__link{
+    stroke-dasharray: 140 540 !important;
+    stroke-dashoffset: -474 !important;
+    stroke-width: 8px;
+    fill: transparent;
+    stroke: var(--contrast-color);
+    border-bottom: 5px solid black;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s !important;
+  }
+ 
+  .wp-block-buttons :hover .wp-block-button__link{
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+  } */
+
+
     
 
 @media all and (max-width: 1026px){
