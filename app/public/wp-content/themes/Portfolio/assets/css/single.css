@@ -19,11 +19,16 @@
     justify-content: space-around;
 }
 
-.article-content > img {
-    width: 40%;
+.slider {
+    width: 46%;
     min-width: 30px;
     height: 60vh;
     object-fit: cover;
+}
+
+.wp-block-eedee-block-gutenslider {
+    top: -38em;
+    position: relative;
 }
 
 .info {
@@ -39,7 +44,7 @@
 }
 
 .info h2 {
-    font-size: 30px;
+    font-size: 4em;
 }
 
 .comp {

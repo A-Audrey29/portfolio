@@ -42,7 +42,7 @@
  
 
   .label {
-      font-family: 'marcellus';
+      font-family: 'seasons';
       font-size: 14px;
       line-height: 21px;
   }
@@ -62,8 +62,9 @@
       background-color: white !important;
   }
   #wpforms-submit-134 {
-    font-family: 'homemadeapple';
+    font-family: 'seasons';
     font-size: 16px;
+    letter-spacing: 1px;
     box-shadow: none;
     display: flex;
     justify-content: center;

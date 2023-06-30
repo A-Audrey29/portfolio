@@ -1,6 +1,6 @@
 body {
     margin: auto;
-    margin: 0 5%;
+    margin: 0 4%;
     background-color: var(--primary-color);
     animation: grow 1.25s ease-in-out;
 
@@ -8,8 +8,25 @@ body {
 
 /* hero */
 
+
+.wp-block-group__inner-container {
+    color: var(--contrast-color);
+    font-family: 'seasons';
+    /* font-weight: 300; */
+    padding: 0 90px;
+}
+
+.title-container {
+    font-size: 4.2em;
+    font-weight: 300;
+}
+
+.wp-block-group__inner-container h2 {
+    padding-left: 10em;
+}
+
 /* img hero */
-.wp-image-24 {
+/* .wp-image-24 {
     width: 100%;
     position: relative;
     z-index: 0;
@@ -28,10 +45,15 @@ body {
     opacity: 0.9;
     padding: 1.25em 0.375em !important;
     margin: 0 17%;
-}
+} */
 
 
 /* test transition */
+
+.wp-container-8 {
+    display: flex;
+    justify-content: center;
+}
 
 .wp-container-7 img {
     transform: scale();
@@ -59,31 +81,9 @@ opacity: 0.7;
 /* galerie */
 
 
-.wp-container-7 img {
-
-    /* filter: grayscale(90%) drop-shadow(-8px 3px 20px black) opacity(0.8) !important;  
-    object-fit: cover !important;   */
-
-    /* position:absolute;
-    width:100px;
-    height:100px; */
-    /* top:50%;
-    left:50%; */
-    /* margin-left:-50px;
-    margin-top:-50px; */
-    /* background:blue; */
-    /* border-radius:50%; */
-  /* opacity:0.8; */
-    /* -webkit-transition:all 3s linear; */
-}
-
-/* .wp-container-7 img {
-    filter : drop-shadow(-8px 3px 20px black) !important;
-} */
-
 /* container principal */
 .wp-container-7 {
-    padding: 8em 9%;
+    padding: 8em 90px 0em 90px;
     max-width: 1300px;
     margin: auto;
 }
@@ -95,16 +95,22 @@ opacity: 0.7;
 }
 
 
-
-/* container Pht event - Planty - Koukaki*/
+/* container Photo event - Planty - Koukaki*/
 .is-layout-flow {
     max-width: 685px;
 }
 
-/* img phot event */
+/* img photo event */
 .wp-image-43 {
     width: 85%;
     max-height: 240px;
+    position: relative;
+    top: 19px;
+    left: 22px;
+}
+
+.wp-image-28 {
+    margin-top: 0.5em;
 }
 
 .wp-image-29{
@@ -130,9 +136,11 @@ opacity: 0.7;
 
 /* container planty et btn */
 .wp-container-4 :first-child {
+    margin-top: 1em;
+
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -143,8 +151,13 @@ opacity: 0.7;
 
 /* boutons contact */
 
+.wp-block-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .wp-block-button__link {
-    font-family: 'homemadeapple';
+    font-family: 'seasons';
     letter-spacing: 0.7px;
     font-size: 2em;
     background-color: var(--primary-color) !important;

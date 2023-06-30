@@ -12,8 +12,7 @@
 
         <div class="article-content">
             <?php if (has_post_thumbnail()) : ?>
-                <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title_attribute(); ?>" class="post-thumbnail" id="popup-img" />
-
+                <div class="slider"></div>
                 <div class="info part">
                     <li>
                         <h2 class="titre"><?php echo get_field('titre'); ?></h2>

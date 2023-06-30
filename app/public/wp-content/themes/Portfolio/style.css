@@ -16,6 +16,17 @@ Requires PHP: 7.4
 @import "assets/css/single.css";
 @import "assets/css/page.css";
 
+
+@font-face {
+    font-family: 'seasons';
+    src: url('./assets/fonts/the_seasons/fontspring-demo-theseasons-reg-webfont.woff2') format('woff2'),
+        url('./assets/fonts/the_seasons/fontspring-demo-theseasons-reg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 @font-face {
     font-family: 'marcellus';
     src: url('../Portfolio/assets/fonts/marcellus/marcellus-regular-webfont.woff2') format('woff2'),

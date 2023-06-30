@@ -80,6 +80,7 @@ define( 'WP_DEBUG', false );
 
 
 
+define( 'WP_ENVIRONMENT_TYPE', 'local' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
