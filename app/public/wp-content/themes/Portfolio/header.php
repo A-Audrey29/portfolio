@@ -14,7 +14,7 @@
 
         <div class="menu-navbar">
 
-            <a href="">
+            <a href="<?php echo home_url('/'); ?>">
                 <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logoW.png'" alt="Logo">
             </a>
 

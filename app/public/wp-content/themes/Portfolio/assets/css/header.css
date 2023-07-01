@@ -88,8 +88,9 @@
     background-color: var(--contrast-color); 
     position: relative;
     top: 78px;
+    left: -4.69em;
     height: 14em;
-    width: 20em;
+    width: 17.8em;
     padding-top: 25px;
     z-index: 100;
 
@@ -190,7 +191,12 @@
   } 
 
   
-  @media all and (max-width: 500px) {
+  @media all and (max-width: 540px) {
+    body {
+         padding: 1em 1em !important; 
+    }
+
+
     .navDesk{
         display: none;
     }
@@ -200,7 +206,7 @@
         font-size: 1.43em;
     }
 
-    .menu-navbar, #myBtn, .menu-item, .navbar-burger a  {
+    menu-navbar, #myBtn, .menu-item, .navbar-burger a {
         justify-content: center;
     }
 
@@ -209,17 +215,20 @@
     }
     
 .open_nav .logo {
-    position: relative;
-    left: 7.5em;;
+    /* position: relative;
+    left: 7.5em;
+    left: -4.5em; */
+    width: 7em;
 }
 
   }
   
   
-  @media all and (min-width: 500px) {
+  @media all and (min-width: 540px) {
     .menu-toggle, .open_nav {
         display: none;
     }
+
   }
   
   @media all and (max-width: 480px) {

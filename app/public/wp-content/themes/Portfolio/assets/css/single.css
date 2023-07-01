@@ -1,37 +1,3 @@
-
-/* .single-projet {
-    padding: 2em 5%;
-    margin: auto;
-    animation: grow 1.5s ease-in-out;
-    }      */
-      /* @keyframes grow {
-          0% { transform: scale(.2); }
-        100% { transform: scale(1); }
-      } */
-/* .article {
-    padding: 0;
-}
-
-.article-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-} */
-/* 
-.slider {
-    width: 46%;
-    min-width: 30px;
-    object-fit: cover;
-}
-
-.swiper-wrapper {
-    height: 90%;
-}
-
-.slider img {
-    object-fit: cover;
-} */
-
 .zoneUp, .zoneDown   {
     display: flex;
 }
@@ -40,11 +6,9 @@
     height: 30em;
 }
 
-.zoneDown img {
-    
+.zoneDown img { 
     width: 19em;
     height: 19em;
-
 }
 
 .info {
@@ -54,134 +18,240 @@
     word-spacing: 1.3px;
 }
 
-/* .info li, .info a {
-    list-style: none;
+/* .info h1 {
+    font-family: 'seasons';
+    font-size: 9em;
+    font-weight: 200;
     color: var(--contrast-color);
+    margin: 0.4em 0;
 } */
 
-.info h1 {
-    font-family: 'seasons';
-    font-size: 10em;
-    color: var(--contrast-color);
-    margin: 0.2em 0;
-}
-
 .descContainer, .compGitContainer {
-    margin-top: 5em;
+    /* margin-top: 2em; */
     color: var(--contrast-color);
     font-size: 1.3em;
 }
 
 .descContainer {
     width: 57%;
-    padding-right: 4em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .desc {
-width: 73%;
-margin-left: 3em;
+    width: 73%;
+    margin-left: 3em;
 }
 
-.zoneDown {
-       margin: 4em 0;
+/* .zoneDown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.img1Container {
+    padding: 4em;
+    background-color: white;
 }
 
-.img2Container {
-    margin: 0 9em
-}
-
-.comp {
-    padding-top: 35px;
+/* .comp {
     font-size: 20px;
+    margin-left: 5.9em;
+    margin-top: 4em;
+} */
+
+.compResult {
+    font-size: 0.9em;
+    margin-left: 2.2em;
+    width: 49%;
 }
 
-.gitHub {
+.compGitContainer {
+    display: flex;
+    align-items: center;
+}
+
+/* .gitHub {
     font-family: 'seasons';
-    font-size: 17px;
+    font-size: 1.7em;
     letter-spacing: 2px;
+
+    display: flex;
+    align-items: center;
+} */
+
+.logoGitSingle {
+    width: 4em !important;
+    height:4em!important;
+    /* padding-left: 2em; */
 }
 
 #myBtn.singleBtn {
     text-decoration: none;
-    color: var(--contrast-color);
-    left: 74%;
-    top: -1em;
+    color: var(--primary-color);
     font-size: 5em !important;
-    max-width: 4em;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+.more-slider {
+    height: 2em;    
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrowLeft, .arrowRight {
+    width: 3.5em;
 
 }
 
 
-@media all and (max-width: 1000px){
+ @media all and (max-width: 980px){
+    .article-content {
+        padding: 1.5em !important;
+        height: auto !important;
+    }
+
+    .article {
+        padding-bottom: 7em;
+    }
+
+    .img1Container {
+        padding: 1.7em;
+        max-height: 318px;
+    }
+
+    .desc, .compResult {
+        margin-left: 0.1em;
+        width: 89%;
+    }
+
+    .zoneUp img {
+        width: 16em;
+        height: 21em;
+    }
+
+    #myBtn.logoGitSingle {
+        margin-bottom: 1em;
+    }
+}
+
+
+@media all and (max-width: 660px){
+    .article-content {
+        padding: 1.5em !important;
+        height: auto;
+    }
+
+    .article-content h1 {
+        font-size: 6em !important;
+    }
+
+    .img1Container {
+        padding: 1.7em;
+        max-height: 318px;
+    }
+    .descContainer {
+        width: 84%;
+        margin: 2em;
+        align-items: center;
+    }
+
+    .desc, .compResult {
+        margin-left: 0.1em;
+        width: 89%;
+    }
+
+    .zoneUp {
+        flex-direction: column-reverse;
+    }
+
+    .zoneUp img {
+        width: 100%;
+        height: 13em;
+    }
+}
+
+@media all and (max-width: 450px){
+
+    /* .article-content {
+       height: 71vh;
+    } */
+
+    .article-content h1 {
+        font-size: 3em !important;
+    }
+
+    .descContainer {
+        margin: 0;
+        width: 100%;
+    }
+
+    .logoGitSingle {
+        width: 2.7em !important;
+    }
+
+    #myBtn.singleBtn {
+        font-size: 2.7em !important;
+    }
+
+    .more-slider {
+        padding-top: 3em;
+    }
+}
+
+/* @media all and (max-width: 1000px){
     .info h1 {
         font-size: 7em;  
     }
 }
 
-@media all and (max-width: 150px){
+@media all and (max-width: 740px){
     .info h1 {
-        font-size: 5em;  
+        font-size: 3.5em;  
     }
 
     .zoneUp,.zoneDown {
         flex-direction: column !important;
         align-items: center !important;
     }
-}
 
-
-
-/* 
-@media all and (max-width: 800px){
-    .article-content > img {
+    .descContainer {
+        width: 80%;
     }
-}
-
-@media all and (max-width: 700px){
-    
-    .article {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .article-content {
-        flex-direction: column;
-    }
-    .slider {
+    .desc {
         width: 100%;
+        margin-bottom: 2em;
     }
 
-
-    .wp-block-eedee-block-gutenslider .swiper {
-        align-content: stretch;
-        height: 35% !important ;
+    .zoneUp img {
+        width: 19em;
+        height: 19em;
     }
 
-    .eedee-gutenslider-pagination{
-        position: relative;
-        top: 21em;
+    .img2Container {
+        margin: 4em 9em;
     }
 
-    .info{
-        width: 70%;
-        position: relative;
-        top: -32em;
+    .descContainer, .compGitContainer {
+        margin: 2em 5em;
     }
-    .gitHub {
-        top: 16px;
-        right: -7%;
-    } */
 
-    /* #myBtn {
-        justify-content: flex-end;
-        margin-right: 3em;
-    }
 } */
 
 
-
-
 /* ---------  page about me ---------- */
+
+
+.wp-block-cover.aligncenter.is-light.aPropos {
+    height: 80vh !important;
+    min-height: 80vh !important;
+}
 
 /* btn Cta */
 
@@ -190,3 +260,24 @@ margin-left: 3em;
     color: var(--primary-color);
 }
   
+
+/* test  */
+
+.article-content {
+    background-color: var(--contrast-color);
+    height: 66vh;
+    padding: 2.5em;
+    margin-top: 4em;
+}
+
+.article-content p {
+    color: var(--primary-color);
+}
+
+.article-content h1 {
+    font-family: 'seasons';
+    font-size: 9em;
+    font-weight: 200;
+    color: var(--primary-color);
+    margin: 0.2em 0;
+}
