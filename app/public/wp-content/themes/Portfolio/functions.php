@@ -58,3 +58,16 @@ function register_my_menus()
     );
 }
 add_action('after_setup_theme', 'register_my_menus');
+
+// //intégration mention tx " tous droits réservé "
+
+// function add_last_nav_item($items, $args)
+// {
+//     // Vérifiez si le menu correspond au menu principal
+//     if ($args->theme_location == 'main') {
+//         $items .= '<li class="menu-item"> <a href="https://github.com/A-Audrey29">
+//     </a></li>';
+//     }
+//     return $items;
+// }
+// add_filter('wp_nav_menu_items', 'add_last_nav_item', 10, 2);

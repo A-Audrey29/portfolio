@@ -5,46 +5,62 @@
  */
 ?>
 
+
 <?php get_header(); ?>
 
 <div>
-    <ul class="article">
 
-        <div class="article-content">
+    <div class="article-content">
+        <div class="info">
 
-            <div class="slider"></div>
-            <div class="info part">
-                <li>
-                    <h2 class="titre"><?php echo get_field('titre'); ?></h2>
-                </li>
-                <li>
+            <h1 class="titre"><?php echo get_field('titre'); ?></h1>
+
+            <div class="zoneUp">
+                <div class="descContainer">
                     <p class="desc"><?php echo get_field('description'); ?></p>
-                </li>
-                <li>
+                </div>
+                <div class="img1Container">
+                    <?php
+                    $image1 = get_field('image1');
+                    if (!empty($image1)) : ?>
+                        <img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
+                    <?php endif; ?>
+                </div>
+            </div>
+            <div class="zoneDown">
+                <div class="img2Container">
+                    <?php
+                    $image2 = get_field('image2');
+                    if (!empty($image2)) : ?>
+                        <img src="<?php echo esc_url($image2['url']); ?>" alt="<?php echo esc_attr($image2['alt']); ?>" />
+                    <?php endif; ?>
+
+                </div>
+                <div class="compGitContainer">
                     <p class="comp">Compétences : <?php
                                                     $competences = get_field('competences');
                                                     if ($competences) : ?>
-                    <ul>
-                        <?php foreach ($competences as $competence) : ?>
-                            <li><?php echo $competence; ?></li>
-                        <?php endforeach; ?>
-                    </ul>
-                <li>
 
-                    <a class="gitHub" href="<?php the_field('lien_vers_github'); ?>" target="_blank">Accédez au code sur GitHub</a>
-                </li>
-            <?php endif; ?></p>
-            </li>
+                            <?php foreach ($competences as $competence) : ?>
+
+                                <?php echo $competence; ?>
+                            <?php endforeach; ?></p>
+
+                    <p class="gitHub"><a href="<?php the_field('lien_vers_github'); ?>" target="_blank"></a>
+                        Accédez au code sur GitHub
+                    </p>
+
+                <?php endif; ?>
+                </div>
             </div>
         </div>
 
+
         <?php the_content(); ?>
-    </ul>
-    <li class="menu-item nav-item"><a href="#" id="myBtn" class="modal-js" role="button" data-toggle="modal">Contact</a></li>
 
-</div>
-<!-- <span class="close">x</span> -->
-</div>
-</div>
+        <a href="#" id="myBtn" class="modal-js singleBtn" role="button" data-toggle="modal">Contact</a>
 
-<?php get_footer(); ?>
+
+    </div>
+
+    <?php get_footer(); ?>

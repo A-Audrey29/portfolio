@@ -63,11 +63,11 @@ Requires PHP: 7.4
 body {
     max-width: 1440px;
     margin: auto;
-    padding: 20px 40px;
+    padding: 20px;
 }
 
-img {
-    object-fit: cover;
+body img {
+    object-fit: cover !important;
 }
 
 :root {

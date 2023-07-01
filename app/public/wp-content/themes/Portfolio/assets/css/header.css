@@ -5,7 +5,10 @@
 
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+}
+
+.navDesk {
+    display: flex;
 }
 
 .menu-navbar, #myBtn, .menu-item, .navbar-burger a  {
@@ -13,7 +16,7 @@
     width: 100%;
 
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     font-size: 18px !important;
 }
 
@@ -30,6 +33,10 @@
 .menu{
     
     display: flex;
+}
+
+.menu {
+    padding: 0 !important;
 }
 
 .menu li {
@@ -80,9 +87,9 @@
   .open_nav {
     background-color: var(--contrast-color); 
     position: relative;
-    top: 88px;
-    height: 24vw;
-    width: 25em;
+    top: 78px;
+    height: 14em;
+    width: 20em;
     padding-top: 25px;
     z-index: 100;
 
@@ -106,7 +113,7 @@
     display:block;
     position: absolute;
     right: 10%;
-    top: 25px;
+    top: 80px;
     padding:0;
     width:45px;
     height:45px;
@@ -184,7 +191,7 @@
 
   
   @media all and (max-width: 500px) {
-    .menu-navbar{
+    .navDesk{
         display: none;
     }
   
@@ -201,6 +208,11 @@
         padding-left: 0;
     }
     
+.open_nav .logo {
+    position: relative;
+    left: 7.5em;;
+}
+
   }
   
   
