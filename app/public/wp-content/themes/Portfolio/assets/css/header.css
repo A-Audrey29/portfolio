@@ -47,8 +47,22 @@
 .menu-item a {
     color: var(--contrast-color);
     text-decoration: none;
-    padding: 0.6em 0;
+    padding: 0.6em 1em;
 }
+
+.contactNav {
+    background-color: var(--primary-color);
+}
+
+.contactNav:hover {
+    transform: scale(1.3);
+  }
+  .menu-item a:hover {
+    transform: scale(1.3);
+  }
+  .logoGit:hover {
+    transform: scale(1.6);
+  }
 
 .line {
     color: var(--contrast-color);
@@ -56,22 +70,11 @@
 
 
 @media all and (max-width: 620px) {
-    /* .header-nav{
-        display: none;
-    } */
-  
-    #myBtn, .accueil_item > a, .apropos_item > a{
+     #myBtn, .accueil_item > a, .apropos_item > a{
         color: var(--contrast-color);
         font-size: 1.43em;
     }
   }
-  
-  /* @media all and (min-width: 620px) {
-    .menu-toggle, .open_nav {
-        display: none;
-    }
-  } */
-
 
   .open_nav {
     display: none;
@@ -93,10 +96,7 @@
     width: 17.8em;
     padding-top: 25px;
     z-index: 100;
-
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+    opacity: 0.95;
   }
   
   .navbar-burger {
@@ -128,19 +128,17 @@
   }
 
   .main-navigation .line {
-      height: 2px;
-      background-color: var(--contrast-color);
-      display: block;
-      margin: auto;
-      margin-block: -2px;
-      width: 2.5em;
+    height: 2px;
+    background-color: var(--contrast-color);
+    display: block;
+    margin: auto;
+    margin-block: -2px;
+    width: 2.5em;
     z-index: 9999;
     position:relative;
     transition: all .5s ease-in-out;
-  } 
+    } 
   
-
-
   .line_one {
     transform:translateY(-12px)
   }
@@ -195,40 +193,28 @@
     body {
          padding: 1em 1em !important; 
     }
-
-
     .navDesk{
         display: none;
     }
-  
     #myBtn, .accueil_item > a, .apropos_item > a{
         color: var( --primary-color);
         font-size: 1.43em;
     }
-
     menu-navbar, #myBtn, .menu-item, .navbar-burger a {
         justify-content: center;
     }
-
     .navbar-burger {
         padding-left: 0;
+    } 
+    .open_nav .logo {
+        width: 7em;
     }
-    
-.open_nav .logo {
-    /* position: relative;
-    left: 7.5em;
-    left: -4.5em; */
-    width: 7em;
-}
-
   }
-  
   
   @media all and (min-width: 540px) {
     .menu-toggle, .open_nav {
         display: none;
     }
-
   }
   
   @media all and (max-width: 480px) {

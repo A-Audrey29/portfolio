@@ -48,9 +48,17 @@
                     </div>
                 </div>
             </div>
-
-            <a href="#" id="myBtn" class="modal-js singleBtn" role="button" data-toggle="modal">Contact</a>
-
+            <div class="btnContainer">
+                <a href="#" id="myBtn" class="modal-js singleBtn" role="button" data-toggle="modal">
+                    <span>C</span>
+                    <span>o</span>
+                    <span>n</span>
+                    <span>t</span>
+                    <span>a</span>
+                    <span>c</span>
+                    <span>t</span>
+                </a>
+            </div>
 
             <div class="more-slider">
                 <?php

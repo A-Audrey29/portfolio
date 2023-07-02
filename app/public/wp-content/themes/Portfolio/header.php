@@ -21,7 +21,7 @@
 
             <div class="navDesk">
                 <a href="https://github.com/A-Audrey29" target="_blank">
-                    <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gitHubBlack.png'" alt="Logo">
+                    <img class="logo logoGit" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gitHubBlack.png'" alt="Logo">
                 </a>
 
                 <?php
@@ -31,7 +31,7 @@
                     // 'menu_class' => 'navbar'
                 ]);
                 ?>
-                <li><a href="#" id="myBtn" class="wp-block-button__link" role="button" data-toggle="modal">Contact</a></li>
+                <li><a href="#" id="myBtn" class="wp-block-button__link contactNav modal-js" role="button" data-toggle="modal">Contact</a></li>
             </div>
         </div>
 

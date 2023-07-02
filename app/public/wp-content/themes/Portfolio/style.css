@@ -35,30 +35,6 @@ Requires PHP: 7.4
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'playfair';
-    src: url('../Portfolio/assets/fonts/playfair/playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
-        url('../Portfolio/assets/fonts/playfair/playfairdisplay-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'playfair-italic';
-    src: url('../Portfolio/assets/fonts/playfair/playfairdisplay-italic-variablefont_wght-webfont.woff2') format('woff2'),
-        url('../Portfolio/assets/fonts/playfair/playfairdisplay-italic-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'homemadeapple';
-    src: url('../Portfolio/assets/fonts/homemadeapple/homemadeapple-regular-webfont.woff2') format('woff2'),
-        url('../Portfolio/assets/fonts/homemadeapple/homemadeapple-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 body {
     max-width: 1440px;
