@@ -111,43 +111,30 @@ body {
 
 .wp-block-button__link{
     background-color: var(--primary-color) !important;
+    padding: 0.3em !important;
 }
 
 .ctaHome {
     font-family: 'seasons';
     letter-spacing: 0.7px;
     font-size: 2.6em;
+    border-radius: 40px;
     color: var(--contrast-color);
-    position: relative;
-    z-index: 0;
+    margin-bottom: .5em;
+    
 }
-/* .ctaHome::before {
-    content: '';
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--contrast-color);
-    border-radius: 50% 50% 0% 0%;
-    z-index: -1;
-    transition: all .5s;
-  } */
 
-  .ctaHome:hover {
-    border: 1px solid var(--contrast-color) !important;
-    border-radius: 29px;
- }
-/* 
-.ctaHome:hover {
-    box-shadow: 10px 0px 150px var(--contrast-color);
-    transition: box-shadow 0.5s ease-in-out;
+.wp-element-button:hover {
+    box-shadow: 10px 0px 120px var(--contrast-color);
+    background-color:#DBD9D7 !important;
+    color: var(--primary-color) !important;
+    transition: box-shadow 0.3s ease-in-out;
 }
-     */
+    
 
 @media all and (max-width: 1018px){
     .wp-block-button__link {
-        font-size: 1.4em;
+        font-size: 1em;
     }
     .wp-block-group__inner-container {
         padding-left: 80px;

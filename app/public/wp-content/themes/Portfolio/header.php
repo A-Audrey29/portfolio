@@ -31,7 +31,7 @@
                     // 'menu_class' => 'navbar'
                 ]);
                 ?>
-                <li><a href="#" id="myBtn" class="wp-block-button__link contactNav modal-js" role="button" data-toggle="modal">Contact</a></li>
+                <li><a href="#" id="myBtn" class="contactNav modal-js" role="button" data-toggle="modal">Contact</a></li>
             </div>
         </div>
 

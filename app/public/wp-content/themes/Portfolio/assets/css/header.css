@@ -21,9 +21,11 @@
 }
 
 
-#myBtn {
+.contactNav {
+    text-decoration: none;
+    color: var(--contrast-color);
     position: relative;
-    top: -3px;
+    top: 11px;
 }
 
 .logo {
